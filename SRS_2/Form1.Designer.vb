@@ -44,7 +44,7 @@ Partial Class Form1
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(117, 183)
+        Button3.Location = New Point(117, 158)
         Button3.Name = "Button3"
         Button3.Size = New Size(121, 39)
         Button3.TabIndex = 3
@@ -53,7 +53,7 @@ Partial Class Form1
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(117, 129)
+        Button2.Location = New Point(117, 111)
         Button2.Name = "Button2"
         Button2.Size = New Size(121, 41)
         Button2.TabIndex = 2
@@ -62,7 +62,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(117, 77)
+        Button1.Location = New Point(117, 73)
         Button1.Name = "Button1"
         Button1.Size = New Size(121, 32)
         Button1.TabIndex = 1
