@@ -71,7 +71,7 @@ Developed using **Windows Forms** with features such as:
 
 
 ## 📄 Forms Overview
-![Navigations](images/SRS_2/client.png)
+![Navigations](SRS_2/client.png)
 
 This section provides a brief description of each user interface form included in both systems.
 
