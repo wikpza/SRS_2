@@ -69,40 +69,34 @@ Developed using **Windows Forms** with features such as:
 - Basket memory for incomplete orders
 - Separate forms for managing clients and viewing order history
 
----
 
-## 📞 Project 2: Phone Subscriber Information System
+## 📄 Forms Overview
+![Navigations](images/SRS_2/client.png)
 
-### 🧾 Description
-
-An information system for managing records of phone subscribers, including surname, phone number, installation year, and debt status.
-
-### 🎯 Features
-
-- Add an unlimited number of subscribers
-- View phones installed between given years
-- Search subscriber by last name
-
-### 🗃️ Database Schema (MySQL)
-
-#### `users` table
-
-| Field           | Type         | Description                         |
-|------------------|--------------|-------------------------------------|
-| ID               | INT (PK)     | Unique identifier                   |
-| last_name        | VARCHAR      | Subscriber's surname                |
-| phone_number     | VARCHAR      | Subscriber's phone number (10 digits) |
-| installation_date| INT          | Year of installation                |
-| has_arrears      | BOOLEAN      | Has payment arrears (TRUE/FALSE)    |
-
-### 🖥️ User Interface
-
-Windows Forms interface includes:
-- Validation (e.g., name uniqueness, phone length)
-- List of subscribers by installation date range
-- Search by surname with feedback if not found
+This section provides a brief description of each user interface form included in both systems.
 
 ---
+
+### 🧾 Order Management System Forms
+
+#### 📋 Order Form
+- Select an existing client from a dropdown list.
+- Choose items from the menu and specify quantity.
+- If a client previously added items to the cart but didn’t complete the order, the cart is restored when returning.
+- Calculates the total amount for the order.
+
+#### 👤 Client Creation Form
+- Used to add a new client.
+- All fields are required: name, address, city, state, and postal code.
+- The name must be unique.
+- Validation checks for empty fields.
+
+#### 📜 Order History Form
+- Displays all orders created in the system.
+- Separates completed and pending orders.
+- Allows reviewing details of each order.
+
+
 
 ## ⚙️ Technologies Used
 
@@ -126,7 +120,7 @@ Windows Forms interface includes:
 
 ## 🧑‍💻 Author
 
-Created by [Your Name] as part of coursework on software development and database systems.
+Created by wikpza as part of coursework on software development and database systems.
 
 ---
 
