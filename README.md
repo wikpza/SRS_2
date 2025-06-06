@@ -25,6 +25,8 @@ An application for managing customers, products, and orders. It allows users to 
 
 ### 🗃️ Database Schema (MySQL)
 
+![Navigations](SRS_2/database.png)
+
 #### `product` table
 
 | Field       | Type        | Description                    |
@@ -71,7 +73,7 @@ Developed using **Windows Forms** with features such as:
 
 
 ## 📄 Forms Overview
-![Navigations](SRS_2/client.png)
+![Navigations](SRS_2/order.png)
 
 This section provides a brief description of each user interface form included in both systems.
 
