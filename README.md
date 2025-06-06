@@ -124,9 +124,4 @@ This section provides a brief description of each user interface form included i
 
 Created by wikpza as part of coursework on software development and database systems.
 
----
-
-## 📜 License
-
-This project is educational and not intended for production use. License can be added if needed.
 
